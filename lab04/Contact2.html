@@ -25,5 +25,29 @@
 
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.108272363449!2d-76.1373098489711!3d43.03915337904485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fba2ccc55%3A0x5e6089065251084d!2sSyracuse%20University!5e0!3m2!1sen!2sus!4v1614271661268!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     
+
+        <form action="mailto:ztwillia@syr.edu" method="post">
+            <label for="name">What is your name?</label>
+            <input type="text" name="name" id="name"><br><br>
+            <label for="gender">Preferred Pronouns</label>
+            <select name="gender" id="gender">
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+                <option value="NB">Non-Binary</option>
+                <option value="O">Prefer Not to Say</option>
+            </select><br><br>
+
+            <p>Preferred Contact Method</p>
+            <label for="contactMethod">Email</label>
+            <input type="radio" name="contactMethod" id="contact_m" value="Email">
+            <label for="contact method">Phone</label>
+            <input type="radio" name="contactMethod" id="contact_P" value="Phone">
+            <label for="contact method">Text</label>
+            <input type="radio" name="contactMethod" id="contact_T" value="Text"><br><br>
+            <label for="comments">Why would you like to speak with me?</label>
+            <textarea name="comments" id="comments" rows="10" cols="100">
+            Enter Here</textarea><br>
+            <input type="submit" value="Send Email">
+        </form>
     </body>
 </html>
