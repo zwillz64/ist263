@@ -1,9 +1,10 @@
-body {font-family:Arial, Helvetica, sans-serif; 
+body {font-family:Arial, Helvetica, sans-serif;
+    color:whitesmoke;
     background-color: #FA8072;}
-text{color: black}
 h1 {color: #004db4; }
 h2{color: #5C91B7;}
 table, th, td {border: 2px solid blue;}
-.evenrow {background-color: #4775B3;}
+.evenrow {background-color: #90A7C6;}
 nav{background-color: skyblue;}
-link{color: #90A7C6;}
+nav a{color: #4775B3;}
+nav a:hover{background-color: whitesmoke; }
