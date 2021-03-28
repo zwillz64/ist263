@@ -1,5 +1,6 @@
 body {font-family:Arial, Helvetica, sans-serif; 
     background-color: #FA8072;}
+text{color: black}
 h1 {color: #004db4; }
 h2{color: #5C91B7;}
 table, th, td {border: 2px solid blue;}
