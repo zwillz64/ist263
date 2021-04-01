@@ -9,3 +9,8 @@ nav{background-color: skyblue; padding: 10px;
 margin-bottom: 30px;}
 nav a{color: #4775B3; }
 nav a:hover{background-color: whitesmoke; }
+footer p{float:right;}
+.bueller{float: right; margin-left: 25px;}
+.clear{clear:both}
+.firstrow .address{float: left;}
+.secondrow{display: flex;}
