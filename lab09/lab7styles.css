@@ -5,9 +5,8 @@ h1 {color: #004db4; }
 h2{color: #5C91B7;}
 table, th, td {border: 2px solid blue;}
 .evenrow {background-color: #90A7C6;}
-nav{background-color: skyblue; padding: 10px;
-margin-bottom: 30px;margin-right:1260px;}
-nav a{color: #4775B3; }
+nav{background-color: skyblue; padding: 10px;}
+nav a{color: #4775B3;}
 nav a:hover{background-color: whitesmoke; }
 footer p{float:right;}
 .bueller{float: right; margin-left: 25px;
@@ -21,4 +20,14 @@ max-width: 100%;}
     display: flex; flex-wrap:wrap;}
 .map{padding:20px;}
 .form{padding: 20px;}
-.skillstable{max-width: 100%;}
+.skillstable{max-width: 100%; margin-left: auto; margin-right: auto;}
+
+@media only screen and (max-width: 920px){
+    nav a{display: block; padding: 5px;}
+    span{display:none;}
+}
+
+@media only screen and (max-width: 600px){
+    nav a{display: block; padding: 5px;}
+    span{display:none;}
+}
