@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Unit 10 notes Accessibility</title>
+        <style>
+            #skip{
+                position: absolute; 
+                left: -999px; 
+                background-color: white; 
+                border: 1px solid black;}
+            /*this position based on top left of viewpoer and pushes skip link off screen*/
+            #skip:focus{position: absolute; left: 10px;}
+            /*focus is when item is selected; when tabbing to skip link, link is moved back on screen*/
+        </style>
+    </head>
+    <body>
+        <h1>Accessibility</h1>
+        <!--heading tags are hierarchical; make sure you use h1 for main heading, h2 for subheading, h3 for sub subheading, etc.-->
+
+        <img src="images/LI-In-Bug.png" width="40" alt="linked in logo">
+        <!--nothing in alt quotes= screen reader ignores it-->
+        <!--do not put "image/photo of" in alt text; you will confuse blind users -->
+
+        <a href="#maincontent" id="skip">Skip to Content</a>
+        <!-- pound sifn says we are linking within page to an element that has an id of maincontent-->
+        <a href="http://www.amazon.com" tabindex="2">Amazon</a>
+        <a href="http://www.google.com" tabindex="3">Google</a>
+        <a href="http://www.ebay.com" tabindex="1">eBay</a>
+        <!--for complex layouts determine order of items tabbed through-->
+
+        <p>The FitnessGram pacer test is a multistage aerobic capacity test that progressively gets more difficult as it continues.Line up at the start. </p>
+
+        <a id="maincontent"></a>
+        <!-- anchor tag links to -->
+        <p>straight outta compton crazy mofo named ice cube from a gang called nwa. I got a sawed off, squeeze the trigger and bodies are hauled off. as i leave believe im stomping but when i come back boy im coming straight outta compton.</p>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+body {font-family:Arial, Helvetica, sans-serif;
+    color:whitesmoke;
+    background-color: #FA8072;}
+h1 {color: #004db4; }
+h2{color: #5C91B7;}
+table, th, td {border: 2px solid blue;}
+.evenrow {background-color: #90A7C6;}
+nav{background-color: skyblue; padding: 10px;}
+nav a{color: #4775B3;}
+nav a:hover{background-color: whitesmoke; }
+footer p{float:right;}
+.bueller{float: right; margin-left: 25px;
+max-width: 100%;}
+.clear{clear:both}
+.firstrow{background-color: turquoise; border-radius: 1.5em;
+    margin:30px;}
+.address{float: left; padding: 12px;}
+.stopfloat{clear:both;}
+.secondrow{background-color:lightsteelblue; border-radius: 2em; 
+    display: flex; flex-wrap:wrap;}
+.map{padding:20px;}
+.form{padding: 20px;}
+.skillstable{max-width: 100%; margin-left: auto; margin-right: auto;}
+
+@media only screen and (max-width: 920px){
+    nav a{display: block; padding: 5px;}
+    span{display:none;}
+}
+
+@media only screen and (max-width: 600px){
+    nav a{display: block; padding: 5px;}
+    span{display:none;}
+}
+
+#skip a{color:#4775B3; position:absolute; left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;}
+
+
+.skip:focus{position: static; width:auto; height: auto; color: #4775B3; display:flex;}
+
+
+
