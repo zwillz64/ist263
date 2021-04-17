@@ -32,14 +32,7 @@ max-width: 100%;}
     span{display:none;}
 }
 
-#skip a{color:#4775B3; position:absolute; left:-10000px;
-    top:auto;
-    width:1px;
-    height:1px;
-    overflow:hidden;}
-
-
-.skip:focus{position: static; width:auto; height: auto; color: #4775B3; display:flex;}
+#skip a{color:#0B1118; display:flex;}
 
 
 
