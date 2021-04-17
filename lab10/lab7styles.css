@@ -1,12 +1,12 @@
 body {font-family:Arial, Helvetica, sans-serif;
-    color:whitesmoke;
+    color:black;
     background-color: #FA8072;}
 h1 {color: #004db4; }
-h2{color: #5C91B7;}
+h2{color: #033372;}
 table, th, td {border: 2px solid blue;}
 .evenrow {background-color: #90A7C6;}
 nav{background-color: skyblue; padding: 10px;}
-nav a{color: #4775B3;}
+nav a{color: #0B1118;}
 nav a:hover{background-color: whitesmoke; }
 footer p{float:right;}
 .bueller{float: right; margin-left: 25px;
