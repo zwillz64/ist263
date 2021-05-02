@@ -4,6 +4,7 @@ body{
     color: white;
 }
 nav{background-color: #f8b195;}
+nav a, nav span{color:black}
 
 @media only screen and (max-width: 920px){
     nav a{display: block; padding: 5px;}
