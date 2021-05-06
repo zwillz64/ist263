@@ -3,8 +3,8 @@ body{
     background-color: /*#355c7d*/#031A26;
     color: white;
 }
-nav{background-color: #f8b195;}
-nav a, nav span{color:black}
+nav{background-color: #f8b195; padding:5px;}
+nav a, nav span{font-size:1.1em; color:black; padding:32px;}
 
 @media only screen and (max-width: 920px){
     nav a{display: block; padding: 5px;}
