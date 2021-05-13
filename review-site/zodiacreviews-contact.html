@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewportindex" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>ZodiacReviews - Contact</title>
         <link rel="stylesheet" href="ZRstyles.css">
@@ -12,7 +12,7 @@
 
         <script>
             function missingElement(){
-                document.getElementById("message").innerHTML="Please enter information in this field";
+                document.getElementById("message").innerHTML="Missing information in this form";
             }
         </script>
     </head>
@@ -38,12 +38,13 @@
             <h2>Contact</h2>
             <p>Wanna recommend some movies for me to watch and review? Contact me here!</p>
         </section>
+        <div id="message"></div>
         <div class="form">
             <form action="mailto:zodiackillah64@gmail.com" method="post">
                 <label for="name">What is your name?</label>
                 <input type="text" name="name" id="name" onblur="missingElement();"><br><br>
                 <label for="gender">Preferred Pronouns</label>
-                <select name="gender" id="gender" onblur="missingElement();">
+                <select name="gender" id="gender">
                     <option value="M">Male (He/Him)</option>
                     <option value="F">Female (She/Her)</option>
                     <option value="NB">Non-Binary</option>

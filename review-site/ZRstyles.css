@@ -28,4 +28,4 @@ li{display: flex; margin: 20px;}
 .review-details{background-color: #2e0552; border: 5px solid #f8b195; border-radius: 2em; padding: 10px; flex:250%;}
 .star-rating{margin:10px;}
 .form{background-color: #6c5b7b; border: 5px solid #f8b195; border-radius: 2em; padding: 20px;}
-#bio p{background-color: #6c5b7b; border: 5px solid #f8b195; border-radius: 2em; padding: 10px;}
+#bio p{background-color: #6c5b7b; border: 5px solid #f8b195; border-radius: 2em; padding: 10px; margin: 15px;}
