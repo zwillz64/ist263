@@ -9,6 +9,12 @@
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
+
+        <script>
+            function missingElement(){
+                document.getElementById("message").innerHTML="Please enter information in this field";
+            }
+        </script>
     </head>
     <body>
         <header><h1><i>ZodiacReviews</i></h1></header>
@@ -35,9 +41,9 @@
         <div class="form">
             <form action="mailto:zodiackillah64@gmail.com" method="post">
                 <label for="name">What is your name?</label>
-                <input type="text" name="name" id="name"><br><br>
+                <input type="text" name="name" id="name" onblur="missingElement();"><br><br>
                 <label for="gender">Preferred Pronouns</label>
-                <select name="gender" id="gender">
+                <select name="gender" id="gender" onblur="missingElement();">
                     <option value="M">Male (He/Him)</option>
                     <option value="F">Female (She/Her)</option>
                     <option value="NB">Non-Binary</option>
@@ -52,7 +58,7 @@
                 <label for="contactMethodText">Text</label>
                 <input type="radio" name="contact_T" id="contactMethodText" value="Text"><br><br>
                 <label for="comments">Why would you like to speak with me?</label><br>
-                <textarea name="comments" id="comments" rows="8" cols="85">Enter Response Here</textarea><br>
+                <textarea name="comments" id="comments" rows="8" cols="85" onblur="missingElement();">Enter Response Here</textarea><br>
                 <input type="submit" value="Send Email">
                 
             </form>

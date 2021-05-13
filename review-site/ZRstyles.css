@@ -10,16 +10,24 @@ nav a, nav span{font-size:1.1em; color:black; padding:32px;}
 @media only screen and (max-width: 920px){
     nav a{display: block; padding: 5px;}
     span{display:none;}
+    #comments{max-width: 100%;}
+    li{flex-wrap: wrap;}
+    
+    .poster-with-link{margin-right: 120px;}
 }
 
 @media only screen and (max-width: 600px){
     nav a{display: block; padding: 5px;}
     span{display:none;}
+    #comments{max-width: 100%;}
+    li{flex-wrap: wrap;}
+    
+    .poster-with-link{margin-right: 120px;}
 }
 h1{color:#f67280;}
 h2, h2 a, h3{color: #f88b96;}
 li{display: flex; margin: 20px;}
-.review-details{background-color: #2e0552; border: 5px solid #f8b195;border-radius: 2em; padding: 10px; flex:250%;}
+.review-details{background-color: #2e0552; border: 5px solid #f8b195; border-radius: 2em; padding: 10px; flex:250%;}
 .star-rating{margin:10px;}
 .form{background-color: #6c5b7b; border: 5px solid #f8b195; border-radius: 2em; padding: 20px;}
-#bio p{background-color: #6c5b7b; border: 5px solid #f8b195;border-radius: 2em; padding: 10px;}
+#bio p{background-color: #6c5b7b; border: 5px solid #f8b195; border-radius: 2em; padding: 10px;}
