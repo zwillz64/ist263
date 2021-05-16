@@ -22,7 +22,8 @@ nav a, nav span{font-size:1.1em; color:black; padding:32px;}
     li{flex-wrap: wrap;}
     .poster-with-link{margin-right: 120px;}
 }
-h1{color:#f67280;}
+h1, a.homeButton{color:#f67280;}
+a.homeButton{text-decoration: none;}
 h2, h2 a, h3{color: #f88b96;}
 li{display: flex; margin: 20px;}
 .review-details{background-color: #2e0552; border: 5px solid #f8b195; border-radius: 2em; padding: 10px; flex:250%;}
