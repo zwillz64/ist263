@@ -13,6 +13,7 @@ nav a, nav span{font-size:1.1em; color:black; padding:32px;}
     #comments{max-width: 100%;}
     li{flex-wrap: wrap;}
     .poster-with-link{margin-right: 120px;}
+    .star-rating{flex:200%}
 }
 
 @media only screen and (max-width: 600px){
@@ -27,6 +28,7 @@ a.homeButton{text-decoration: none;}
 h2, h2 a, h3{color: #f88b96;}
 li{display: flex; margin: 20px;}
 .review-details{background-color: #2e0552; border: 5px solid #f8b195; border-radius: 2em; padding: 10px; flex:250%;}
+.review-list-bad.review-details, .review-list-best.review-details, .review-list-guilt.review-details{flex:100%}
 .star-rating{margin:10px;}
 .form{background-color: #6c5b7b; border: 5px solid #f8b195; border-radius: 2em; padding: 20px;}
 #bio p{background-color: #6c5b7b; border: 5px solid #f8b195; border-radius: 2em; padding: 10px; margin: 15px;}
